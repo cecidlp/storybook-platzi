@@ -1,0 +1,32 @@
+{
+  "name": "storybook-platzi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-a11y": "^7.6.15",
+    "@storybook/addon-essentials": "^7.6.14",
+    "@storybook/addon-interactions": "^7.6.15",
+    "@storybook/addon-links": "^7.6.14",
+    "@storybook/blocks": "^7.6.14",
+    "@storybook/html": "^7.6.14",
+    "@storybook/html-webpack5": "^7.6.14",
+    "@storybook/jest": "^0.2.3",
+    "@storybook/test": "^7.6.14",
+    "@storybook/test-runner": "^0.16.0",
+    "@storybook/testing-library": "^0.2.2",
+    "chromatic": "^10.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.14"
+  }
+}
